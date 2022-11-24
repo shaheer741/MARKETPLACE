@@ -1,12 +1,13 @@
 import React from 'react'
+import Navbar from './Navbar'
 
-function homepage() {
+function Homepage() {
   return (
     <div>
-        <h1>MARKETPLACE</h1>
+        <Navbar/>
         
     </div>
   )
 }
 
-export default homepage
+export default Homepage
